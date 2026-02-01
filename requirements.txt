@@ -1,0 +1,22 @@
+# Airflow 3.0.1
+apache-airflow>=3.0.1
+
+# Ray 分布式计算
+ray[default]>=2.9.0
+
+# 音频处理
+soundfile>=0.12.1
+librosa>=0.10.1
+pydub>=0.25.1
+numpy>=1.24.0
+
+# VAD - Silero VAD
+torch>=2.0.0
+torchaudio>=2.0.0
+
+# SenseVoice 语音识别 (FunASR)
+funasr>=1.0.0
+modelscope>=1.9.0
+
+# 工具库
+pathlib2>=2.3.7
